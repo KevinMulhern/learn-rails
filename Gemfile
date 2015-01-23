@@ -26,4 +26,8 @@ group :production do
 	gem 'rails_12factor'
 	gem 'thin'
 end
+group :test do
+	gem 'minitest-spec-rails'
+	gem 'minitest-rails-capybara'
+end
 
